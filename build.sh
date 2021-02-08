@@ -239,7 +239,8 @@ git_clone() {
     source $CLONE_AND_CHECKOUT "https://github.com/filecash/neptune.git" neptune "ca4f3d1fa3b1e389730c6fe489b664fbd13f6725"
 	# filecash/v0.9.0
     source $CLONE_AND_CHECKOUT "https://github.com/filecash/neptune-triton.git" neptune-triton "753c436bcd446cee8a1672cd8603924cbfa5f3ea"
-	# filecash/v0.9.0
+    
+	# commit  40c22fe26eef
     source $CLONE_AND_CHECKOUT "https://github.com/filecoin-project/chain-validation.git" chain-validation "40c22fe26eefba10b7bbb24bf8e742b2a0e2478c"
 	# release/v0.7.0
     source $CLONE_AND_CHECKOUT "https://github.com/filecoin-project/go-fil-markets.git" go-fil-markets "v0.7.0"
@@ -249,7 +250,7 @@ git_clone() {
     source $CLONE_AND_CHECKOUT "https://github.com/filecoin-project/specs-storage.git" specs-storage "ed2e5cd13796"
 	# tag: v0.0.1
     source $CLONE_AND_CHECKOUT "https://github.com/filecoin-project/statediff.git" statediff "v0.0.1"
-	# commit: 7471e2805fc3e459e4ee325775633e8ec76cb7c6
+	# commit: 7471e2805fc3
     source $CLONE_AND_CHECKOUT "https://github.com/filecoin-project/test-vectors" test-vectors "7471e2805fc3e459e4ee325775633e8ec76cb7c6"
 	# tag: v0.6.3
     source $CLONE_AND_CHECKOUT "https://github.com/filecoin-project/sapling-crypto.git" sapling-crypto "v0.6.3"
